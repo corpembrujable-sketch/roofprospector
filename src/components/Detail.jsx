@@ -56,7 +56,7 @@ export default function Detail({ target, updTgt, visits, setVisits, back, notify
     <div className="fade">
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20 }}>
-        <button className="btn-ghost btn-sm" onClick={back}><- Volver</button>
+        <button className="btn-ghost btn-sm" onClick={back}>← Volver</button>
         <div style={{ flex: 1 }}>
           <div style={{ fontWeight: 700, fontSize: 19, color: '#f1f5f9' }}>{target.name}</div>
           <div style={{ fontSize: 12, color: '#475569' }}>{target.formatted_address}</div>
